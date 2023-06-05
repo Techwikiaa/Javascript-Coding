@@ -20,8 +20,12 @@ do {
     score = 100 - count;
     // console.log("score : ", 100 - count);
   }
-} while (ranNum != inputNum)
+
+}
+ while (ranNum != inputNum)
 console.log("Game Over !")
+
 // console.log(count)
 console.log("Your score is ", score);
+console.log(" number of guess ",100 - score);
 console.log("Actual number is:", ranNum);
